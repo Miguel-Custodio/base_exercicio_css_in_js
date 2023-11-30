@@ -1,9 +1,9 @@
-import styles from './Hero.module.css'
+import * as styles from './styles'
 
 const Hero = () => (
-  <form className={styles.form}>
+  <form className={styles.Form}>
     <div className="container">
-      <h2 className={styles.heroTitle}>
+      <h2 className={styles.HeroTitle}>
         As melhores vagas para tecnologia, design e artes visuais.
       </h2>
     </div>
